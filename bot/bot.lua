@@ -206,7 +206,7 @@ function create_config( )
   config = {
     enabled_plugins = {
       "9gag",
-      "eur",
+      "eur"
       "echo",
       "btc",
       "get",
@@ -228,7 +228,7 @@ function create_config( )
       "weather",
       "xkcd",
       "youtube" },
-    sudo_users = {mellirobot},
+    sudo_users = {229257150},
     disabled_channels = {}
   }
   serialize_to_file(config, './data/config.lua')
